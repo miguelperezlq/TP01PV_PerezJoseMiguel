@@ -6,10 +6,10 @@ public class Main {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Introduce un numero para calcular su factorial entre 1 y 9: ");
+		System.out.println("Introduce un numero para calcular su factorial entre 0 y 10: ");
 		int numero = scanner.nextInt();
 		
-		if(numero<0 || numero> 9) {
+		if(numero<0 || numero> 10) {
 			System.out.println("Numero fuera del rango permitido");
 			return;
 		}
